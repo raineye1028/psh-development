@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>PSH Development Co., Ltd.</title>
-<meta name="description" content="PSH Development Co., Ltd. — mobile app developer. Makers of Hola Hangul.">
+<meta name="description" content="PSH Development Co., Ltd. — mobile apps for Spanish speakers learning Korean: Hola Hangul, Tu nombre en coreano and Coreano de Viaje.">
 <!-- GOOGLE-SITE-VERIFICATION -->
 <style>
   :root { --ink:#1d2433; --muted:#5b6475; --line:#e4e7ee; --accent:#2747c9; --bg:#fafbfd; }
@@ -22,7 +22,9 @@
   section { padding:28px 0; border-top:1px solid var(--line); }
   h2 { font-size:20px; margin:0 0 14px; }
   .card { background:#fff; border:1px solid var(--line); border-radius:14px; padding:22px; display:flex; gap:18px; align-items:flex-start; }
-  .badge { flex:none; width:56px; height:56px; border-radius:14px; background:#d93b30; color:#fff; display:flex; align-items:center; justify-content:center; font-size:26px; font-weight:700; }
+  .apps { display:grid; gap:14px; }
+  .icon { flex:none; width:64px; height:64px; border-radius:16px; display:flex; align-items:center; justify-content:center; font-size:30px; font-weight:800; color:#fff; box-shadow:0 1px 3px rgba(0,0,0,.12); }
+  .pkg { font-size:12px; color:var(--muted); margin:0 0 8px; }
   .card h3 { margin:0 0 4px; font-size:18px; }
   .card p { margin:0 0 10px; color:var(--muted); }
   .links a { color:var(--accent); text-decoration:none; font-size:14px; margin-right:16px; }
@@ -45,20 +47,47 @@
 <main class="wrap">
   <div class="hero">
     <h1>PSH Development Co., Ltd.</h1>
-    <p class="lead">We build simple, friendly mobile apps for learning and everyday use.</p>
+    <p class="lead">We build simple, friendly mobile apps that help Spanish speakers discover Korean — its alphabet, names and everyday phrases.</p>
     <p class="ko">피에스에이치개발 주식회사 — 모바일 앱 개발</p>
   </div>
 
   <section id="apps">
     <h2>Our apps</h2>
-    <div class="card">
-      <div class="badge">한</div>
-      <div>
-        <h3>Hola Hangul: Aprende coreano</h3>
-        <p>An Android app that teaches Spanish speakers to read and write the Korean alphabet (Hangul): letter sounds, tracing practice, syllable building and your name in Korean.</p>
-        <div class="links">
-          <a href="https://play.google.com/store/apps/details?id=com.holahangul.hola_hangul">Google Play</a>
-          <a href="https://claude.ai/artifact/G9KoiQvjDfTioMoSs9nG36">Privacy policy</a>
+    <div class="apps">
+      <div class="card">
+        <div class="icon" style="background:#2747c8">한</div>
+        <div>
+          <h3>Hola Hangul: Aprende coreano</h3>
+          <p class="pkg">Android · Education</p>
+          <p>Learn to read and write the Korean alphabet (Hangul) in Spanish: the story of Hangul, native-voice letter sounds, finger-tracing practice, step-by-step syllable building and your name in Hangul to share.</p>
+          <div class="links">
+            <a href="https://play.google.com/store/apps/details?id=com.holahangul.hola_hangul">Google Play</a>
+            <a href="privacy/hola-hangul.html">Privacy policy</a>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="icon" style="background:#b8322a">名</div>
+        <div>
+          <h3>Tu nombre en coreano: hangul</h3>
+          <p class="pkg">Android · Entertainment</p>
+          <p>Create a real Korean name with its hanja and meaning, turn your name into a Hangul card with 40 traditional styles, and make a Korean-style seal (dojang) to save and share.</p>
+          <div class="links">
+            <a href="https://play.google.com/store/apps/details?id=com.pshdev.hangul_name_card">Google Play</a>
+            <a href="privacy/tu-nombre-en-coreano.html">Privacy policy</a>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="icon" style="background:#1f8a6e">✈</div>
+        <div>
+          <h3>Coreano de Viaje: frases</h3>
+          <p class="pkg">Android · Travel &amp; Local</p>
+          <p>Essential Korean phrases for travelling to Korea, with native voice at normal and slow speed, Spanish-style pronunciation, a big-text mode to show taxi drivers and shop staff, and your hotel address in Korean.</p>
+          <div class="links">
+            <a href="https://play.google.com/store/apps/details?id=com.pshdev.coreano_de_viaje">Google Play</a>
+            <a href="privacy/coreano-de-viaje.html">Privacy policy</a>
+          </div>
         </div>
       </div>
     </div>
